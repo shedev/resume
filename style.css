@@ -8,6 +8,12 @@
     transform: rotate(45deg);
     border: 6px solid #fff;
   }
+  .main-heading{
+    font-size: 4rem !important;
+  }
+  .mobile{
+    text-align: center;
+  }
 }
 
 @media (min-width: 1400px) {
