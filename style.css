@@ -95,10 +95,7 @@ h2 {
 }
 
 /* EXPERTISE */
-
-#area-of-expertise-section {
-}
-
+ 
 .experience-year-circle{
   height: 100px;
   width: 100px;
@@ -109,6 +106,5 @@ h2 {
   padding: 40px 0px 40px;
   font-weight: 900;
    background-color: #096870;
-   color: #fff;
-   
+   color: #fff;   
 }
