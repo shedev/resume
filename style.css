@@ -48,6 +48,7 @@ h2 {
 }
 .secondary-heading {
   color: #096870;
+  margin-bottom: 35px;
 }
 .main-heading {
   font-size: 6rem;
@@ -96,4 +97,18 @@ h2 {
 /* EXPERTISE */
 
 #area-of-expertise-section {
+}
+
+.experience-year-circle{
+  height: 100px;
+  width: 100px;
+  margin: 22px 75px 22px 15px;
+  border: 1px solid rgb(0, 0, 0,.125);
+  border-radius: 50%;
+  text-align: center;
+  padding: 40px 0px 40px;
+  font-weight: 900;
+   background-color: #096870;
+   color: #fff;
+   
 }
