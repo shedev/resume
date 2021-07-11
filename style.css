@@ -18,6 +18,13 @@
   .pic-container{
     display: none;
   }
+  .experience-year-circle-connector{
+    display: none;
+  }
+  .experience-year-circle{
+    
+    margin: 0px auto !important;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -55,14 +62,15 @@ h2 {
   line-height: 1.5;
 }
 .pic-container {
-  width: 100%;
+  width: 300px;
   height: 300px;
-  border-radius: 100%;
+  margin-left: 75px;
+  border-radius: 50%;
 }
 .image-column{
   position: relative;
 }
-.image-column::after {
+/* .image-column::after {
   content: " ";
   height: 100%;
   width: 80%;
@@ -70,7 +78,7 @@ h2 {
   right: 9%;
   transform: rotate(45deg);
   border: 6px solid #fff;
-}
+} */
 .page-padding {
   padding: 5% 20%;
 }
@@ -99,7 +107,7 @@ h2 {
 .experience-year-circle{
   height: 100px;
   width: 100px;
-  margin: 22px 75px 22px 15px;
+  margin: 50px 75px 22px 15px;
   border: 1px solid rgb(0, 0, 0,.125);
   border-radius: 50%;
   text-align: center;
@@ -107,4 +115,13 @@ h2 {
   font-weight: 900;
    background-color: #096870;
    color: #fff;   
+}
+
+.experience-year-circle-connector{
+  width: 5%;
+  transform: rotate(90deg);
+  border: none;
+  border-top: 5px dotted #096870;
+  color: white;
+  margin-left:48px;
 }
