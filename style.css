@@ -129,7 +129,15 @@ h2 {
   background-color: #096870;
   color: #fff;
 }
-
+.first-circle {
+  margin-top: 225px;
+}
+.second-circle {
+  margin-top: 175px;
+}
+.third-circle {
+  margin-top: 120px;
+}
 .experience-year-circle-connector {
   width: 5%;
   transform: rotate(90deg);
