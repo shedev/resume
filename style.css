@@ -14,15 +14,14 @@
   .mobile {
     text-align: center;
   }
- 
-  .pic-container{
+
+  .pic-container {
     display: none;
   }
-  .experience-year-circle-connector{
+  .experience-year-circle-connector {
     display: none;
   }
-  .experience-year-circle{
-    
+  .experience-year-circle {
     margin: 0px auto !important;
   }
 }
@@ -67,7 +66,7 @@ h2 {
   margin-left: 75px;
   border-radius: 50%;
 }
-.image-column{
+.image-column {
   position: relative;
 }
 /* .image-column::after {
@@ -102,26 +101,57 @@ h2 {
   margin: 5px auto;
 }
 
+/* SKILL */
+.holder-for-certificate {
+  padding-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  color: #096870;
+  font-weight: 500;
+}
+.ms-badge {
+  width: 7%;
+  height: 7%;
+  display: inline-block;
+}
+
 /* EXPERTISE */
- 
-.experience-year-circle{
+
+.experience-year-circle {
   height: 100px;
   width: 100px;
   margin: 50px 75px 22px 15px;
-  border: 1px solid rgb(0, 0, 0,.125);
+  border: 1px solid rgb(0, 0, 0, 0.125);
   border-radius: 50%;
   text-align: center;
   padding: 40px 0px 40px;
   font-weight: 900;
-   background-color: #096870;
-   color: #fff;   
+  background-color: #096870;
+  color: #fff;
 }
 
-.experience-year-circle-connector{
+.experience-year-circle-connector {
   width: 5%;
   transform: rotate(90deg);
   border: none;
   border-top: 5px dotted #096870;
   color: white;
-  margin-left:48px;
+  margin-left: 48px;
+}
+
+.job-role {
+  color: #096870;
+  font-family: "PT Serif", serif;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #096870;
+  height: 20vh;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-arrow {
+  margin-top: 30px;
 }
