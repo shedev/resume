@@ -8,11 +8,15 @@
     transform: rotate(45deg);
     border: 6px solid #fff;
   }
-  .main-heading{
+  .main-heading {
     font-size: 4rem !important;
   }
-  .mobile{
+  .mobile {
     text-align: center;
+  }
+ 
+  .pic-container{
+    display: none;
   }
 }
 
@@ -54,12 +58,15 @@ h2 {
   height: 300px;
   border-radius: 100%;
 }
+.image-column{
+  position: relative;
+}
 .image-column::after {
   content: " ";
-  height: calc(80vh / 2);
-  width: calc(40vw / 2);
+  height: 100%;
+  width: 80%;
   position: absolute;
-  right: 24%;
+  right: 9%;
   transform: rotate(45deg);
   border: 6px solid #fff;
 }
