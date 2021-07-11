@@ -100,6 +100,10 @@ h2 {
   width: 5%;
   margin: 5px auto;
 }
+.phone-call-clear{
+  text-decoration: none;
+  color: #212529;
+}
 
 /* SKILL */
 .holder-for-certificate {
